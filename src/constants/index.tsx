@@ -1,64 +1,37 @@
-export const radioButtonProperty = [
+export const activitys = [
   {
-    label: "Masculino",
-    id: "masculino",
+    name: "Selecione uma atividade",
+    value: "",
   },
   {
-    label: "Feminino",
-    id: "feminino",
+    name: "Atividade 01",
+    value: "Atividade 01",
+  },
+  {
+    name: "Atividade 02",
+    value: "Atividade 02",
+  },
+  {
+    name: "Atividade 03",
+    value: "Atividade 03",
   },
 ];
 
-export const selectOptions = [
+export const epis = [
   {
-    type: "atividade",
-    id: 1,
+    name: "Selecione um EPIs",
     value: "",
-    label: "Selecione",
-  },
-
-  {
-    type: "atividade",
-    id: 2,
-    value: "Atividade 01",
-    label: "Atividade 01",
-  },
-
-  {
-    type: "atividade",
-    id: 3,
-    value: "Atividade 02",
-    label: "Atividade 02",
-  },
-
-  {
-    type: "atividade",
-    id: 4,
-    value: "Atividade 03",
-    label: "Atividade 03",
   },
   {
-    type: "EPIs",
-    id: 5,
-    value: "",
-    label: "Selecine o EPIs",
+    name: "Bota de segurança",
+    value: "Bota de segurança",
   },
   {
-    type: "EPIs",
-    id: 6,
-    value: "capacete",
-    label: "Capacete",
+    name: "Capacete de segurança",
+    value: "Capacete de segurança",
   },
   {
-    type: "EPIs",
-    id: 7,
-    value: "colete",
-    label: "Colete",
-  },
-  {
-    type: "EPIs",
-    id: 8,
-    value: "calça jeans",
-    label: "Calça jeans",
+    name: "Luva de segurança",
+    value: "Luva de segurança",
   },
 ];
